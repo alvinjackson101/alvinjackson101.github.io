@@ -1,3 +1,35 @@
+.navbar{
+
+	overflow: hidden;
+	background-color: none;
+	top: 0;
+	width: 100%;
+	text-align: right;
+	font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+	list-style: none;
+	float:left;
+}
+
+.navbar a{
+	color:#000000;
+	text-decoration: none;
+}
+
+.navbar-home {
+	text-align:left;
+	font-size: 24px;
+}
+
 h1, h2, p, div {
 	font-family: sans-serif;
 }
