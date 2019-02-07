@@ -5,8 +5,9 @@
 	top: 0;
 	width: 100%;
 	text-align: right;
-	font-weight: bold;
 	padding: 14px;
+	border-bottom: 1px solid #cccccc;
+	box-shadow: 2;
 }
 
 ul {
@@ -24,6 +25,7 @@ li{
 
 .navbar-right{
 	float:right;
+	font-weight: bold;
 }
 
 .navbar a{
@@ -33,7 +35,7 @@ li{
 
 .navbar-home {
 	text-align:left;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 h1, h2, p, div {
@@ -42,6 +44,7 @@ h1, h2, p, div {
 
 img {
 	float: left;
+	margin: 0 6em 2em 0;
 }
 
 .cta-button {
@@ -53,7 +56,76 @@ img {
 	border-radius: 8px;
 }
 
+.btn {
+	padding: 42px;
+}
+
 .side-text{
-	padding-right: 20px;
-	padding-left: 20px;
+	margin: 8em 6em 8em 0;
+}
+
+.social-icons{
+	margin: 1em;
+}
+.icon-container{
+	/*width: 300px;*/
+}
+
+.image-icon{
+margin: 16px 16px 16px 0px;
+}
+
+.work{
+	padding-top: 1em;
+}
+.education{
+	padding-top: 1em;
+}
+
+.linkedin{
+	width: 25%;
+}
+
+.twitter{
+	/*width: 25px;,*/
+	float: left;
+}
+
+.facebook{
+	/*width: 25%;*/
+}
+
+#linkedin{
+	width: 40px;
+	/*width: 30px;*/
+}
+
+#twitter{
+	width: 40px;
+	/*float: left;*/
+}
+
+#facebook{
+	width: 40px;
+	/*width: 30px;*/
+}
+
+.footernav{
+	position: fixed;
+	background-color: rgb(255, 255, 2555, 0.5);
+	width: 100%;
+	height:40px;
+	box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.50);
+	text-align: left;
+	padding: 24px;
+}
+
+.footer-button {
+	background-color:#305B90;
+	border: none;
+	padding: 15px 40px;
+	color: white;
+	text-decoration: none;
+	border-radius: 8px;
+	/*position: fixed;*/
 }
